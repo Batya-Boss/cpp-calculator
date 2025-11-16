@@ -23,7 +23,7 @@ bool ReadNumber(Number& result) {
 // Возвращает true, если выход произошел по команде 'q',
 // иначе возвращается false при возникновении ошибки.
 bool RunCalculatorCycle() {
-    Number memory = NAN; // Ячейка памяти изначально пуста
+    Number memory = 0;// Ячейка памяти изначально пуста
     Number current_number = 0.0; // Текущее значение калькулятора
 
   //  std::cout << "Enter initial number: ";
